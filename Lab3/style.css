@@ -1,0 +1,141 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-body:#ffffff;
+    --color-primary: #000000;
+    --color-accent: #d1495b;
+    --color-button: #003d5b;
+    --color-text: #1f1f1e;
+    --color-text-white: #ffffff;
+
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Josefin Sans", serif;
+}
+
+main{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: var(--color-primary);
+    color: var(--color-text-white);
+    position: sticky;
+    width: 100%;
+}
+
+.nav ul li{
+    list-style-type: none;
+}
+
+.nav_contact_link a{
+    text-decoration: none;
+    color: var(--color-text-white);
+    font-size: 20px;
+}
+
+.banner{
+    /* max-width: 100%; */
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 80px;
+    background-color:var(--color-primary);
+    border-radius: 30px;
+    color: var(--color-text-white);
+    /* overflow: hidden; */
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+
+.img{
+    border-radius: 30px;
+    height: 100%;
+    width: 80%;
+}
+
+.banner_text_container{
+    padding: 30px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.banner_text_container h1{
+    font-size: 50px;
+    color: var(--color-accent);
+    margin-bottom: 30px;
+}
+
+.skills{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 50px;
+    margin-bottom: 30px;
+    
+}
+
+.skills_heading{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.skills_data ul{
+    line-height:30px;
+    text-align: center;
+    list-style: none;
+}
+
+.skills_data ul li{
+    width: 100%;
+    border: 1px solid #003d5b;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.projects{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+.projects h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project{
+    width: 100%;
+    border: 1px solid var(--color-accent);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.footer{
+    background-color: var(--color-primary);
+    color: var(--color-text-white);
+    width: 100%;
+    text-align: center;
+    padding: 30px
+}
+
